@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E2D90FD77AB69BD551E9790 /* Pods_BaiduMapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFE8F69674FB3F18802E53 /* Pods_BaiduMapDemo.framework */; };
+		CB06606E202C235D0000E3D7 /* BaseMapTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB06606D202C235D0000E3D7 /* BaseMapTipsView.swift */; };
+		CB548BB720293F550061EFDB /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB548BB620293F550061EFDB /* Dictionary+Extension.swift */; };
+		CB548BB920293FAF0061EFDB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB548BB820293FAF0061EFDB /* String+Extension.swift */; };
+		CB548BBE2029921D0061EFDB /* MapCityAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB548BBD2029921D0061EFDB /* MapCityAnnotationView.swift */; };
+		CB548BC0202992430061EFDB /* MapCommunityAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB548BBF202992430061EFDB /* MapCommunityAnnotationView.swift */; };
+		CB5F685D2028466400F8DB78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F685C2028466400F8DB78 /* AppDelegate.swift */; };
+		CB5F685F2028466400F8DB78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F685E2028466400F8DB78 /* ViewController.swift */; };
+		CB5F68622028466400F8DB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5F68602028466400F8DB78 /* Main.storyboard */; };
+		CB5F68642028466400F8DB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5F68632028466400F8DB78 /* Assets.xcassets */; };
+		CB5F68672028466400F8DB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5F68652028466400F8DB78 /* LaunchScreen.storyboard */; };
+		CB5F68722028466400F8DB78 /* BaiduMapDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F68712028466400F8DB78 /* BaiduMapDemoTests.swift */; };
+		CB5F687D2028466400F8DB78 /* BaiduMapDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F687C2028466400F8DB78 /* BaiduMapDemoUITests.swift */; };
+		CB5F688D2028589200F8DB78 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F688C2028589200F8DB78 /* NetWorkTool.swift */; };
+		CBE20429202AE8440069144E /* BaseMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE20428202AE8440069144E /* BaseMapView.swift */; };
+		CBE2042B202AF44E0069144E /* AnimationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2042A202AF44E0069144E /* AnimationUtil.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB5F686E2028466400F8DB78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5F68512028466400F8DB78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5F68582028466400F8DB78;
+			remoteInfo = BaiduMapDemo;
+		};
+		CB5F68792028466400F8DB78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5F68512028466400F8DB78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5F68582028466400F8DB78;
+			remoteInfo = BaiduMapDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ADFE8F69674FB3F18802E53 /* Pods_BaiduMapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaiduMapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD125ECDD65ACFB9057DA03B /* Pods-BaiduMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMapDemo/Pods-BaiduMapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B41956B06290A37B7F280FB5 /* Pods-BaiduMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMapDemo/Pods-BaiduMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CB06606D202C235D0000E3D7 /* BaseMapTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMapTipsView.swift; sourceTree = "<group>"; };
+		CB548BB620293F550061EFDB /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		CB548BB820293FAF0061EFDB /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		CB548BBD2029921D0061EFDB /* MapCityAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCityAnnotationView.swift; sourceTree = "<group>"; };
+		CB548BBF202992430061EFDB /* MapCommunityAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCommunityAnnotationView.swift; sourceTree = "<group>"; };
+		CB548BC120299B7F0061EFDB /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
+		CB5F68592028466400F8DB78 /* BaiduMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5F685C2028466400F8DB78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB5F685E2028466400F8DB78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB5F68612028466400F8DB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB5F68632028466400F8DB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB5F68662028466400F8DB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB5F68682028466400F8DB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5F686D2028466400F8DB78 /* BaiduMapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduMapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5F68712028466400F8DB78 /* BaiduMapDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduMapDemoTests.swift; sourceTree = "<group>"; };
+		CB5F68732028466400F8DB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5F68782028466400F8DB78 /* BaiduMapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduMapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5F687C2028466400F8DB78 /* BaiduMapDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduMapDemoUITests.swift; sourceTree = "<group>"; };
+		CB5F687E2028466400F8DB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5F688A20284F8B00F8DB78 /* BaiduMapDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaiduMapDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB5F688C2028589200F8DB78 /* NetWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTool.swift; sourceTree = "<group>"; };
+		CBE20428202AE8440069144E /* BaseMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMapView.swift; sourceTree = "<group>"; };
+		CBE2042A202AF44E0069144E /* AnimationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUtil.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5F68562028466400F8DB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2D90FD77AB69BD551E9790 /* Pods_BaiduMapDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5F686A2028466400F8DB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5F68752028466400F8DB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177A0E5C3ACB2DAA7B358D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB548BC120299B7F0061EFDB /* mapapi.bundle */,
+				2ADFE8F69674FB3F18802E53 /* Pods_BaiduMapDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E80565E43972C1A93AB8826 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B41956B06290A37B7F280FB5 /* Pods-BaiduMapDemo.debug.xcconfig */,
+				AD125ECDD65ACFB9057DA03B /* Pods-BaiduMapDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB548BB520293F3F0061EFDB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CB548BB620293F550061EFDB /* Dictionary+Extension.swift */,
+				CB548BB820293FAF0061EFDB /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CB548BBA20298D710061EFDB /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				CB548BBD2029921D0061EFDB /* MapCityAnnotationView.swift */,
+				CB548BBF202992430061EFDB /* MapCommunityAnnotationView.swift */,
+				CBE20428202AE8440069144E /* BaseMapView.swift */,
+				CB06606D202C235D0000E3D7 /* BaseMapTipsView.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		CB5F68502028466400F8DB78 = {
+			isa = PBXGroup;
+			children = (
+				CB5F685B2028466400F8DB78 /* BaiduMapDemo */,
+				CB5F68702028466400F8DB78 /* BaiduMapDemoTests */,
+				CB5F687B2028466400F8DB78 /* BaiduMapDemoUITests */,
+				CB5F685A2028466400F8DB78 /* Products */,
+				5E80565E43972C1A93AB8826 /* Pods */,
+				177A0E5C3ACB2DAA7B358D8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5F685A2028466400F8DB78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5F68592028466400F8DB78 /* BaiduMapDemo.app */,
+				CB5F686D2028466400F8DB78 /* BaiduMapDemoTests.xctest */,
+				CB5F68782028466400F8DB78 /* BaiduMapDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5F685B2028466400F8DB78 /* BaiduMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CB548BBA20298D710061EFDB /* MapView */,
+				CB548BB520293F3F0061EFDB /* Extension */,
+				CB5F688B2028587A00F8DB78 /* Tools */,
+				CB5F685C2028466400F8DB78 /* AppDelegate.swift */,
+				CB5F685E2028466400F8DB78 /* ViewController.swift */,
+				CB5F68602028466400F8DB78 /* Main.storyboard */,
+				CB5F68632028466400F8DB78 /* Assets.xcassets */,
+				CB5F68652028466400F8DB78 /* LaunchScreen.storyboard */,
+				CB5F68682028466400F8DB78 /* Info.plist */,
+				CB5F688A20284F8B00F8DB78 /* BaiduMapDemo-Bridging-Header.h */,
+			);
+			path = BaiduMapDemo;
+			sourceTree = "<group>";
+		};
+		CB5F68702028466400F8DB78 /* BaiduMapDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5F68712028466400F8DB78 /* BaiduMapDemoTests.swift */,
+				CB5F68732028466400F8DB78 /* Info.plist */,
+			);
+			path = BaiduMapDemoTests;
+			sourceTree = "<group>";
+		};
+		CB5F687B2028466400F8DB78 /* BaiduMapDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5F687C2028466400F8DB78 /* BaiduMapDemoUITests.swift */,
+				CB5F687E2028466400F8DB78 /* Info.plist */,
+			);
+			path = BaiduMapDemoUITests;
+			sourceTree = "<group>";
+		};
+		CB5F688B2028587A00F8DB78 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CB5F688C2028589200F8DB78 /* NetWorkTool.swift */,
+				CBE2042A202AF44E0069144E /* AnimationUtil.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB5F68582028466400F8DB78 /* BaiduMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5F68812028466400F8DB78 /* Build configuration list for PBXNativeTarget "BaiduMapDemo" */;
+			buildPhases = (
+				6367E37D16C6497E514BFD05 /* [CP] Check Pods Manifest.lock */,
+				CB5F68552028466400F8DB78 /* Sources */,
+				CB5F68562028466400F8DB78 /* Frameworks */,
+				CB5F68572028466400F8DB78 /* Resources */,
+				14229EB26FE0C9F96300368F /* [CP] Embed Pods Frameworks */,
+				010CB8B89E26620D36ACBF26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduMapDemo;
+			productName = BaiduMapDemo;
+			productReference = CB5F68592028466400F8DB78 /* BaiduMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB5F686C2028466400F8DB78 /* BaiduMapDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5F68842028466400F8DB78 /* Build configuration list for PBXNativeTarget "BaiduMapDemoTests" */;
+			buildPhases = (
+				CB5F68692028466400F8DB78 /* Sources */,
+				CB5F686A2028466400F8DB78 /* Frameworks */,
+				CB5F686B2028466400F8DB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5F686F2028466400F8DB78 /* PBXTargetDependency */,
+			);
+			name = BaiduMapDemoTests;
+			productName = BaiduMapDemoTests;
+			productReference = CB5F686D2028466400F8DB78 /* BaiduMapDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB5F68772028466400F8DB78 /* BaiduMapDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5F68872028466400F8DB78 /* Build configuration list for PBXNativeTarget "BaiduMapDemoUITests" */;
+			buildPhases = (
+				CB5F68742028466400F8DB78 /* Sources */,
+				CB5F68752028466400F8DB78 /* Frameworks */,
+				CB5F68762028466400F8DB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5F687A2028466400F8DB78 /* PBXTargetDependency */,
+			);
+			name = BaiduMapDemoUITests;
+			productName = BaiduMapDemoUITests;
+			productReference = CB5F68782028466400F8DB78 /* BaiduMapDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB5F68512028466400F8DB78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "王云";
+				TargetAttributes = {
+					CB5F68582028466400F8DB78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CB5F686C2028466400F8DB78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB5F68582028466400F8DB78;
+					};
+					CB5F68772028466400F8DB78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB5F68582028466400F8DB78;
+					};
+				};
+			};
+			buildConfigurationList = CB5F68542028466400F8DB78 /* Build configuration list for PBXProject "BaiduMapDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB5F68502028466400F8DB78;
+			productRefGroup = CB5F685A2028466400F8DB78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB5F68582028466400F8DB78 /* BaiduMapDemo */,
+				CB5F686C2028466400F8DB78 /* BaiduMapDemoTests */,
+				CB5F68772028466400F8DB78 /* BaiduMapDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5F68572028466400F8DB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5F68672028466400F8DB78 /* LaunchScreen.storyboard in Resources */,
+				CB5F68642028466400F8DB78 /* Assets.xcassets in Resources */,
+				CB5F68622028466400F8DB78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5F686B2028466400F8DB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5F68762028466400F8DB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		010CB8B89E26620D36ACBF26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BaiduMapDemo/Pods-BaiduMapDemo-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiduMapDemo/Pods-BaiduMapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14229EB26FE0C9F96300368F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BaiduMapDemo/Pods-BaiduMapDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiduMapDemo/Pods-BaiduMapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6367E37D16C6497E514BFD05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaiduMapDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB5F68552028466400F8DB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB06606E202C235D0000E3D7 /* BaseMapTipsView.swift in Sources */,
+				CBE2042B202AF44E0069144E /* AnimationUtil.swift in Sources */,
+				CBE20429202AE8440069144E /* BaseMapView.swift in Sources */,
+				CB548BC0202992430061EFDB /* MapCommunityAnnotationView.swift in Sources */,
+				CB5F688D2028589200F8DB78 /* NetWorkTool.swift in Sources */,
+				CB548BBE2029921D0061EFDB /* MapCityAnnotationView.swift in Sources */,
+				CB5F685F2028466400F8DB78 /* ViewController.swift in Sources */,
+				CB5F685D2028466400F8DB78 /* AppDelegate.swift in Sources */,
+				CB548BB920293FAF0061EFDB /* String+Extension.swift in Sources */,
+				CB548BB720293F550061EFDB /* Dictionary+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5F68692028466400F8DB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5F68722028466400F8DB78 /* BaiduMapDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5F68742028466400F8DB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5F687D2028466400F8DB78 /* BaiduMapDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB5F686F2028466400F8DB78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5F68582028466400F8DB78 /* BaiduMapDemo */;
+			targetProxy = CB5F686E2028466400F8DB78 /* PBXContainerItemProxy */;
+		};
+		CB5F687A2028466400F8DB78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5F68582028466400F8DB78 /* BaiduMapDemo */;
+			targetProxy = CB5F68792028466400F8DB78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB5F68602028466400F8DB78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5F68612028466400F8DB78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB5F68652028466400F8DB78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5F68662028466400F8DB78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB5F687F2028466400F8DB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB5F68802028466400F8DB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB5F68822028466400F8DB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41956B06290A37B7F280FB5 /* Pods-BaiduMapDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ55JKK8UE;
+				INFOPLIST_FILE = BaiduMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyun.BaiduMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaiduMapDemo/BaiduMapDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB5F68832028466400F8DB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD125ECDD65ACFB9057DA03B /* Pods-BaiduMapDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ55JKK8UE;
+				INFOPLIST_FILE = BaiduMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyun.BaiduMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaiduMapDemo/BaiduMapDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB5F68852028466400F8DB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ55JKK8UE;
+				INFOPLIST_FILE = BaiduMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyun.BaiduMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduMapDemo.app/BaiduMapDemo";
+			};
+			name = Debug;
+		};
+		CB5F68862028466400F8DB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ55JKK8UE;
+				INFOPLIST_FILE = BaiduMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyun.BaiduMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduMapDemo.app/BaiduMapDemo";
+			};
+			name = Release;
+		};
+		CB5F68882028466400F8DB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ55JKK8UE;
+				INFOPLIST_FILE = BaiduMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyun.BaiduMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaiduMapDemo;
+			};
+			name = Debug;
+		};
+		CB5F68892028466400F8DB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ55JKK8UE;
+				INFOPLIST_FILE = BaiduMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyun.BaiduMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaiduMapDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB5F68542028466400F8DB78 /* Build configuration list for PBXProject "BaiduMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5F687F2028466400F8DB78 /* Debug */,
+				CB5F68802028466400F8DB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5F68812028466400F8DB78 /* Build configuration list for PBXNativeTarget "BaiduMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5F68822028466400F8DB78 /* Debug */,
+				CB5F68832028466400F8DB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5F68842028466400F8DB78 /* Build configuration list for PBXNativeTarget "BaiduMapDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5F68852028466400F8DB78 /* Debug */,
+				CB5F68862028466400F8DB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5F68872028466400F8DB78 /* Build configuration list for PBXNativeTarget "BaiduMapDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5F68882028466400F8DB78 /* Debug */,
+				CB5F68892028466400F8DB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB5F68512028466400F8DB78 /* Project object */;
+}

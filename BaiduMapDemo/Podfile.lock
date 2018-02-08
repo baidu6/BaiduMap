@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.6.0)
+  - BaiduMapKit (3.4.2)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.6.0)
+  - BaiduMapKit
+  - SnapKit (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 931ee63f380a66faf7c57b2c0d2ed7e51b43dfed
+
+COCOAPODS: 1.3.1
